@@ -1,4 +1,4 @@
-name: _robots_from_jupyter
+name: _build_cadlab
 
 channels:
   - https://repo.anaconda.com/pkgs/main
@@ -6,15 +6,7 @@ channels:
   - https://conda.anaconda.org/conda-forge
 
 dependencies:
-  - black
   - conda >=4.5.11,<4.6
   - conda-build >=3.15,<3.16
   - conda-verify
-  - constructor
-  - flake8
-  - geckodriver
   - python >=3.6,<3.7
-  - python-chromedriver-binary
-  - robotframework
-  - robotframework-lint
-  - robotframework-seleniumlibrary
